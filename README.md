@@ -22,15 +22,26 @@ With -b flag to ask git to create a new branch if this branch has not existed
 **6.	Understanding how to name branches in git flow**
 -	Branch name:  
 o	Main
+
 o	Release
+
 o	Develop
+
 o	Feature
+
 o	HotFix
+
 -	Workflow:
 o	A develop branch is created from main.
+
 o	A release branch is created from develop.
+
 o	Feature branch is created from develop.
+
 o	Feature branch will be merged to develop when it is completed.
+
 o	Release branch will be merged to develop and main when it is completed
+
 o	HotFix branch is created from main when an issue is detected
+
 o	HotFix branch will be merged to main and release when it is completed
